@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.buttonTypeOne:hover {
+  background-color: #f9f1f1;
+}
+
+.buttonTypeTwo:hover {
+  background-color: #e40536 !important;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.glow:hover {
+  color: #d63c5e !important;
+}
