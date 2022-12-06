@@ -1,27 +1,27 @@
 export default function ButtonTypeOne(props: {
-  icon: Function
-  title: string
+  icon: Function;
+  title: string;
 }) {
   return (
     <div
-      className='buttonTypeOne'
+      className="buttonTypeOne"
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        textAlign: 'center',
-        border: '1px solid #cfbdba',
+        display: "flex",
+        alignItems: "center",
+        textAlign: "center",
+        border: "1px solid #cfbdba",
         borderRadius: 10,
-        height: 40,
-        padding: '0 14px 0 7px',
-        transition: 'all .125s ease-in-out',
-        cursor: 'pointer',
+        height: 38,
+        padding: "0 14px 0 7px",
+        transition: "all .125s ease-in-out",
+        cursor: "pointer",
       }}
     >
       <>
         {props.icon()}
         <p
           style={{
-            position: 'relative',
+            position: "relative",
             top: -1,
             fontWeight: 700,
             fontSize: 15,
@@ -32,5 +32,5 @@ export default function ButtonTypeOne(props: {
         </p>
       </>
     </div>
-  )
+  );
 }
